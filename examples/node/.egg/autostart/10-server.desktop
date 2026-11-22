@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=server
+Exec=sh -c "npm install && npm run dev"
+Terminal=true
