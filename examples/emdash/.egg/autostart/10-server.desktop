@@ -1,5 +1,5 @@
 [Desktop Entry]
 Type=Application
 Name=server
-Exec=sh -c "{ test -d /home/user/app/examples/emdash/site || egg create-app emdash /home/user/app/examples/emdash/site --pm bun; } && cd /home/user/app/examples/emdash/site && bun dev"
+Exec=sh -c "{ test -d /home/user/app/examples/emdash/site || egg create-app emdash /home/user/app/examples/emdash/site --pm bun; } && code /home/user/app/examples/emdash/site && cd /home/user/app/examples/emdash/site && bun dev"
 Terminal=true

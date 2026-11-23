@@ -1,5 +1,5 @@
 [Desktop Entry]
 Type=Application
 Name=server
-Exec=sh -c "{ test -d /home/user/app/examples/nextjs/site || egg create-app next /home/user/app/examples/nextjs/site --pm bun; } && cd /home/user/app/examples/nextjs/site && bun dev"
+Exec=sh -c "{ test -d /home/user/app/examples/nextjs/site || egg create-app next /home/user/app/examples/nextjs/site --pm bun; } && code /home/user/app/examples/nextjs/site && cd /home/user/app/examples/nextjs/site && bun dev"
 Terminal=true

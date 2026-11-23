@@ -1,5 +1,5 @@
 [Desktop Entry]
 Type=Application
 Name=server
-Exec=sh -c "{ test -d /home/user/app/examples/bun/app || { mkdir -p /home/user/app/examples/bun/app && cd /home/user/app/examples/bun/app && bun init --react; }; } && cd /home/user/app/examples/bun/app && bun dev"
+Exec=sh -c "{ test -d /home/user/app/examples/bun/app || { mkdir -p /home/user/app/examples/bun/app && cd /home/user/app/examples/bun/app && bun init --react; }; } && code /home/user/app/examples/bun/app && cd /home/user/app/examples/bun/app && bun dev"
 Terminal=true
