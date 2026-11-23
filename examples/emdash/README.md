@@ -8,7 +8,7 @@ elette clones this repository into a new project and opens three panes:
 
 | Pane | What it runs |
 |---|---|
-| server | `egg create-app emdash site` the first time (emdash's blog on Node), then `bun dev` in `site/` |
+| server | `bun install --frozen-lockfile` in `site/` (emdash's blog on Node, versions pinned in `site/bun.lock`), its key into `site/.env`, then `bun dev` |
 | opencode | `vault run --optional -- opencode`: the coding agent, with your model keys from the vault when you have one |
 | preview | the site on port 4321 |
 
