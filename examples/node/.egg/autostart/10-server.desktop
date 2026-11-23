@@ -1,5 +1,5 @@
 [Desktop Entry]
 Type=Application
 Name=server
-Exec=sh -c "code /home/user/app/examples/node && cd /home/user/app/examples/node && npm install && npm run dev"
+Exec=sh -c "code /home/user/app/examples/node && cd /home/user/app/examples/node && bun install --frozen-lockfile && bun run dev"
 Terminal=true

@@ -1,5 +1,5 @@
-// A small Node server: the page at /, a JSON clock at /api/time. nodemon restarts it on a change of
-// this file or of public/, and the preview pane shows the new page when the port comes back.
+// A small server on Bun: the page at /, a JSON clock at /api/time. bun --watch restarts it when this
+// file changes; the page is read on each request, so an edit of public/ shows on the next load.
 import { createServer } from "node:http";
 import { readFile } from "node:fs/promises";
 
@@ -10,7 +10,7 @@ const server = createServer(async (req, res) => {
   const url = new URL(req.url ?? "/", "http://localhost");
   if (url.pathname === "/api/time") {
     res.writeHead(200, { "content-type": "application/json" });
-    res.end(JSON.stringify({ now: new Date().toISOString(), started: started.toISOString(), node: process.version }));
+    res.end(JSON.stringify({ now: new Date().toISOString(), started: started.toISOString(), bun: Bun.version }));
     return;
   }
   if (url.pathname === "/") {

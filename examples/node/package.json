@@ -2,13 +2,10 @@
   "name": "eggshell-demo-node",
   "version": "1.0.0",
   "private": true,
-  "description": "A Node server under nodemon, with opencode beside it, that opens in elette.",
+  "description": "A small server on Bun, with opencode beside it, that opens in elette.",
   "type": "module",
   "scripts": {
-    "dev": "nodemon --watch server.js --watch public server.js",
-    "start": "node server.js"
-  },
-  "devDependencies": {
-    "nodemon": "3.1.14"
+    "dev": "bun --watch server.js",
+    "start": "bun server.js"
   }
 }
