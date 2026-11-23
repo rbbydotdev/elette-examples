@@ -1,5 +1,5 @@
 [Desktop Entry]
 Type=Application
 Name=pi
-Exec=vault run --optional -- bunx -y --ignore-scripts @earendil-works/pi-coding-agent
+Exec=vault run --optional -- pi --approve
 Terminal=true

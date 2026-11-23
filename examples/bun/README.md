@@ -9,7 +9,7 @@ elette clones this repository into a new project and opens three panes:
 | Pane | What it runs |
 |---|---|
 | server | `bun install --frozen-lockfile` in `app/`, then `bun dev` there |
-| pi | `vault run --optional -- bunx -y --ignore-scripts @earendil-works/pi-coding-agent`: the coding agent, with your model keys from the vault when you have one |
+| pi | `vault run --optional -- pi --approve` (the egg package pi, trusting this folder for the run): the coding agent, with your model keys from the vault when you have one |
 | preview | the app on port 3000 |
 
 Edit the app in the editor or ask pi to; Bun reloads the page in the preview.
