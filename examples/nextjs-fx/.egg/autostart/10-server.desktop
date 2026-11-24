@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=server
+Exec=sh -c "code /home/user/app/examples/nextjs-fx && cd /home/user/app/examples/nextjs-fx && bun install --frozen-lockfile && bun dev"
+Terminal=true

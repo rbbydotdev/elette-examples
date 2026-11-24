@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=fx
+Exec=vault run --optional -- fx
+Terminal=true

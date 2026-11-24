@@ -7,6 +7,7 @@ Each folder under `examples/` is a project that opens in [elette](https://elette
 | node | a Node server under nodemon, opencode, a preview | https://elette.dev/?import_gh=https://github.com/rbbydotdev/elette-examples/tree/main/examples/node |
 | bun | `bun init --react` and `bun dev`, pi, a preview | https://elette.dev/?import_gh=https://github.com/rbbydotdev/elette-examples/tree/main/examples/bun |
 | nextjs | a Next.js app on `bun dev`, pi, a preview | https://elette.dev/?import_gh=https://github.com/rbbydotdev/elette-examples/tree/main/examples/nextjs |
+| nextjs-fx | a Next.js app on `bun dev`, fx, a preview | https://elette.dev/?import_gh=https://github.com/rbbydotdev/elette-examples/tree/main/examples/nextjs-fx |
 | emdash | an emdash blog on `bun dev`, opencode, a preview | https://elette.dev/?import_gh=https://github.com/rbbydotdev/elette-examples/tree/main/examples/emdash |
 
 ## Addresses elette takes
