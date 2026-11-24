@@ -8,11 +8,11 @@ elette clones this repository into a new project and opens three panes:
 
 | Pane | What it runs |
 |---|---|
-| server | `bun install --frozen-lockfile` in `site/` (emdash's blog on Node, versions pinned in `site/bun.lock`), its key into `site/.env`, then `bun dev` |
+| server | `bun install --frozen-lockfile` (versions pinned in `bun.lock`), the site key into `.env`, then `bun dev` |
 | opencode | `vault run --optional -- opencode`: the coding agent, with your model keys from the vault when you have one |
 | preview | the site on port 4321 |
 
-The first start makes the site and installs its packages, which takes a few minutes. Edit the site in the editor or ask opencode to; the dev server reloads the preview.
+The first start installs the packages, which takes a few minutes. Edit the site in the editor or ask opencode to; the dev server reloads the preview.
 
 ## Make your own
 

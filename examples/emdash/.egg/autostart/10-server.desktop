@@ -1,5 +1,5 @@
 [Desktop Entry]
 Type=Application
 Name=server
-Exec=sh -c "code /home/user/app/examples/emdash/site && cd /home/user/app/examples/emdash/site && bun install --frozen-lockfile && bun emdash secrets generate --write .env && bun dev"
+Exec=sh -c "code /home/user/app/examples/emdash && cd /home/user/app/examples/emdash && bun install --frozen-lockfile && bun emdash secrets generate --write .env && bun dev"
 Terminal=true
